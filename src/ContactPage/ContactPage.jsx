@@ -31,7 +31,7 @@ export default function ContactPage() {
     setMessage("");
     try {
       const res = await axios.post(
-        "https://drchitraendocare-0zlt.onrender.com/api/appointment",
+        "https://drchitraendocare-cb5f.onrender.com/api/appointment",
         formData
       );
       setMessage(res.data.message);

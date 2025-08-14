@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion"; // Import Framer Motion
 import bgclinic from "../assets/Services/bgclinic-min.jpg";
+import HappyClientSection from "../homepage/ContactUs";
 import serviceimg1 from "../assets/Services/serviceimg1-min.jpg";
 import serviceimg2 from "../assets/Services/serviceimg2-min.jpg";
 import serviceimg3 from "../assets/Services/serviceimg3-min.jpg";
@@ -10,8 +11,9 @@ import serviceimg6 from "../assets/Services/serviceimg6-min.jpg";
 import serviceimg7 from "../assets/Services/serviceimg7-min.jpg";
 import serviceimg8 from "../assets/Services/serviceimg8-min.jpg";
 import serviceimg9 from "../assets/Services/serviceimg9-min.jpg";
-import HappyClientSection from "../homepage/ContactUs";
-import clearaligners from "/src/assets/Homepage/Services/clear aligners.jpg";
+import serviceimg10 from "/src/assets/Services/serviceimg10-min.jpg";
+import serviceimg11 from "/src/assets/Services/serviceimg11-min.jpg";
+import serviceimg12 from "/src/assets/Services/serviceimg12-min.jpg";
 
 const services = [
   {
@@ -72,7 +74,19 @@ const services = [
     title: "Clear Aligners",
     description:
       "Clear aligners is transparent removable orthodontic device used to close the gap or straighten teeth..they are popular for esthetic looks and comfort.",
-    image: clearaligners,
+    image: serviceimg10,
+  },
+  {
+    title: "Removable & Fixed Denture",
+    description:
+      "Removable and fixed dentures are custom-designed dental prosthetics that replace missing teeth, restore functionality, and enhance appearance, offering comfort, durability, and a natural look for improved confidence and oral health.",
+    image: serviceimg11,
+  },
+   {
+    title: "Laser Treatment",
+    description:
+      "Teeth laser treatment is a modern, painless procedure that uses advanced laser technology to whiten teeth, treat gum issues, and improve oral health with precision, comfort, and faster healing.",
+    image: serviceimg12,
   },
 ];
 

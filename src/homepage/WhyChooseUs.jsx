@@ -46,7 +46,7 @@ export default function WhyChooseUs() {
             viewport={{ once: true }}
           >
             <h2 className="max-lg:text-3xl max-lg:text-center md:text-5xl font-bold text-gray-800 leading-tight mb-4 font-[Noto_Sans]">
-              Your Smile Deserves The Best — Here’s Why Patients Trust <br />
+              Your Smile Deserves The Best Here’s Why Patients Trust <br />
               <span className="text-blue-500">Dr. Chitra’s Endocare</span>
             </h2>
             <p className="text-gray-600 mb-10 max-lg:text-center max-w-xl leading-relaxed">

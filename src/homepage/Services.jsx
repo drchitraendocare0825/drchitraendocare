@@ -20,7 +20,9 @@ import dental_implant from "/src/assets/Homepage/Services/dental-implant.png";
 import clearaligners from "/src/assets/Homepage/Services/clear aligners.jpg";
 import clear_aligners from "/src/assets/Homepage/Services/dental-trainer_8732965.png";
 import denture from "/src/assets/Homepage/Services/denture.jpg";
+import denture_icon from "/src/assets/Homepage/Services/denture-icon.png";
 import lasertreatment from "/src/assets/Homepage/Services/laser-treatment.jpg";
+import laser_treatment from "/src/assets/Homepage/Services/laser-treatment.png";
 import { motion } from "framer-motion";
 
 const services = [
@@ -99,14 +101,14 @@ const services = [
     description:
       "Removable and fixed dentures are custom-designed dental prosthetics that replace missing teeth, restore functionality, and enhance appearance, offering comfort, durability, and a natural look for improved confidence and oral health.",
     image: denture,
-    icon: clear_aligners,
+    icon: denture_icon,
   },
   {
     title: "Laser Treatment",
     description:
       "Teeth laser treatment is a modern, painless procedure that uses advanced laser technology to whiten teeth, treat gum issues, and improve oral health with precision, comfort, and faster healing.",
     image: lasertreatment,
-    icon: clear_aligners,
+    icon: laser_treatment,
   },
 ];
 

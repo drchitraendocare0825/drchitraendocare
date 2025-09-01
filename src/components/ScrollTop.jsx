@@ -23,7 +23,7 @@ export default function ScrollTop() {
     visible && (
       <button
         onClick={scrollToTop}
-        className="fixed bottom-6 max-lg:bottom-10 text-3xl right-6 z-50 bg-yellow-300 text-black px-2 py-2 
+        className="fixed border border-gray-500 bottom-6 max-lg:bottom-10 text-3xl right-6 z-50 bg-yellow-300 text-black px-2 py-2 
         rounded-lg shadow-lg hover:bg-yellow-500 transition"
         aria-label="Scroll to top"
       >
